@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>This is the Title of the page</title>
+<title> Word press Theme | Session 3 Assignment 3.2</title> 
+<style>
+
+body {
+ width: 460px;
+ margin: 0 auto;
+}
+
+
+header {
+ color: #5d5d5d;
+ background-image: url('wp-logo.png');
+ background-position: 0 0;
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 100px;
+}
+
+h1 {
+ padding: 35px 101px;
+ font-size: 50px;
+}
+
+
+h1 span {
+ color: #21759b;
+}
+
+.wp-search {
+  background-image: url('wp-logo-blue.png');
+  background-position: 0 100%;
+  background-position: 320px 13px;
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-top: 20px;
+}
+
+</style>
 </head>
-
 <body>
-<h1>This is body of the page</h1>
-<p> Anything within the body of a web page is displayed in the main browser window</p>
+<!--  Wordpress theme-->
+<header>
+<h1><span> Word </span> Press</h1>
+</header> <br/>
+<div> Upload a theme <input type='file' name='flbrowse' value='Browse' /></div> <br/>
 
+<div class='wp-search'>  Or search in wordpress <input type='text' name='txtsearch' /></div>
 </body>
 </html>
